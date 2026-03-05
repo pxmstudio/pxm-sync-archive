@@ -1,0 +1,24 @@
+{
+  "name": "@workspace/email",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "check-types": "tsc --noEmit",
+    "dev": "email dev"
+  },
+  "dependencies": {
+    "@react-email/components": "^0.0.31",
+    "react": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@workspace/typescript-config": "workspace:*",
+    "react-email": "^3.0.0",
+    "typescript": "^5.9.2"
+  },
+  "exports": {
+    ".": "./src/index.ts",
+    "./templates/*": "./src/templates/*.tsx"
+  }
+}

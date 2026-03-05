@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+@import "@workspace/ui/globals.css";
+
+@source "../**/*.{ts,tsx}";
+@source "../../components/**/*.{ts,tsx}";
+@source "../../node_modules/@workspace/ui/src/**/*.tsx";

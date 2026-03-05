@@ -1,0 +1,59 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "sync-api",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-12-03",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true,
+  },
+  "r2_buckets": [
+    {
+      "binding": "R2_DOCS",
+      "bucket_name": "sync-docs",
+      "preview_bucket_name": "sync-docs-dev",
+    },
+  ],
+  "env": {
+    "dev": {
+      "vars": {
+        "GCP_KMS_PROJECT_ID": "",
+        "GCP_KMS_LOCATION": "",
+        "GCP_KMS_KEY_RING": "",
+        "GCP_KMS_KEY": "",
+        "APP_URL": "http://localhost:3004",
+        "API_URL": "http://localhost:8787",
+        "WEBHOOK_BASE_URL": "",
+        "RESEND_FROM_EMAIL": "",
+      },
+      "r2_buckets": [
+        {
+          "binding": "R2_DOCS",
+          "bucket_name": "sync-docs",
+          "preview_bucket_name": "sync-docs-dev",
+        },
+      ],
+    },
+    "prod": {
+      "vars": {
+        "GCP_KMS_PROJECT_ID": "",
+        "GCP_KMS_LOCATION": "",
+        "GCP_KMS_KEY_RING": "",
+        "GCP_KMS_KEY": "",
+        "WEBHOOK_URL": "",
+        "API_URL": "",
+        "STUDIO_API_URL": "",
+        "APP_URL": "",
+        "RESEND_FROM_EMAIL": "",
+      },
+      "routes": [],
+      "r2_buckets": [
+        {
+          "binding": "R2_DOCS",
+          "bucket_name": "sync-docs",
+          "preview_bucket_name": "sync-docs-prod",
+        },
+      ],
+    },
+  },
+}

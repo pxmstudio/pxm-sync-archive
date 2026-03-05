@@ -1,0 +1,26 @@
+{
+  "name": "@workspace/i18n",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "check-types": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@workspace/typescript-config": "workspace:*",
+    "@types/react": "^19.1.6",
+    "typescript": "^5.9.2"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0"
+  },
+  "exports": {
+    ".": "./src/index.ts",
+    "./context": "./src/context.tsx",
+    "./hooks": "./src/hooks.ts",
+    "./types": "./src/types.ts",
+    "./utils": "./src/utils.ts",
+    "./locales/en": "./src/locales/en/index.ts",
+    "./locales/ro": "./src/locales/ro/index.ts"
+  }
+}

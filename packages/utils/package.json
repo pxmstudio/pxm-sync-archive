@@ -1,0 +1,19 @@
+{
+  "name": "@workspace/utils",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "check-types": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@workspace/typescript-config": "workspace:*",
+    "typescript": "^5.9.2"
+  },
+  "exports": {
+    ".": "./src/index.ts",
+    "./countries": "./src/countries.ts",
+    "./regions": "./src/regions.ts",
+    "./currencies": "./src/currencies.ts"
+  }
+}

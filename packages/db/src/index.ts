@@ -1,0 +1,19 @@
+import { neon } from "@neondatabase/serverless";
+import { drizzle } from "drizzle-orm/neon-http";
+
+import * as schema from "./schema";
+
+export function createDb(databaseUrl: string) {
+  const sql = neon(databaseUrl);
+  return drizzle({ client: sql, schema });
+}
+
+export type Database = ReturnType<typeof createDb>;
+
+export * from "./schema";
+
+// TypeID utilities
+export * from "./lib/typeid";
+
+// Settings hash utility
+export * from "./lib/settings-hash";

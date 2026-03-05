@@ -1,0 +1,125 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1768461805925,
+      "tag": "0000_tense_mandarin",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1768471245944,
+      "tag": "0001_classy_black_crow",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1768471862962,
+      "tag": "0002_spooky_mad_thinker",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1768554000000,
+      "tag": "0003_publication_field_locks",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1768472815848,
+      "tag": "0004_real_tattoo",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1768563715764,
+      "tag": "0005_abnormal_jack_power",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1768566142467,
+      "tag": "0006_strong_gateway",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1768567503689,
+      "tag": "0007_free_kabuki",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1768828589104,
+      "tag": "0008_mute_beyonder",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1768829044417,
+      "tag": "0009_vengeful_psynapse",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1768900000000,
+      "tag": "0010_change_breakdown",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1768900100000,
+      "tag": "0011_inventory_fast_path",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1768925243666,
+      "tag": "0012_nosy_jigsaw",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1768925546906,
+      "tag": "0013_panoramic_hobgoblin",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "7",
+      "when": 1768928259563,
+      "tag": "0014_last_blockbuster",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "7",
+      "when": 1768928708968,
+      "tag": "0015_clammy_salo",
+      "breakpoints": true
+    },
+    {
+      "idx": 16,
+      "version": "7",
+      "when": 1768940572130,
+      "tag": "0016_integration_currency",
+      "breakpoints": true
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+ALTER TABLE "feed_subscription_sync_settings" ADD COLUMN IF NOT EXISTS "field_locks" jsonb;--> statement-breakpoint
+ALTER TABLE "feed_subscription_sync_settings" ADD COLUMN IF NOT EXISTS "publication_override" jsonb;

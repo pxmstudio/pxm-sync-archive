@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "@clerk/backend": "^2.29.0",
+    "@react-email/components": "^1.0.2",
+    "@trigger.dev/sdk": "4.4.2",
+    "drizzle-orm": "^0.44.7",
+    "resend": "^6.6.0",
+    "stripe": "^17.7.0"
+  },
+  "devDependencies": {
+    "@trigger.dev/build": "4.4.2",
+    "@types/react": "^19.0.0",
+    "@workspace/adapters": "workspace:*",
+    "@workspace/db": "workspace:*",
+    "@workspace/email": "workspace:*",
+    "@workspace/typescript-config": "workspace:*",
+    "react": "^19.0.0",
+    "trigger.dev": "^4.0.0",
+    "typescript": "^5.9.2"
+  },
+  "exports": {
+    ".": "./src/index.ts",
+    "./tasks": "./src/tasks/index.ts"
+  },
+  "name": "@workspace/trigger",
+  "private": true,
+  "scripts": {
+    "check-types": "tsc --noEmit",
+    "deploy": "trigger deploy",
+    "dev": "trigger dev"
+  },
+  "type": "module",
+  "version": "0.0.0"
+}

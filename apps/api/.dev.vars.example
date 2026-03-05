@@ -1,0 +1,30 @@
+# Database
+DATABASE_URL=
+
+# Clerk Authentication
+CLERK_SECRET_KEY=
+CLERK_PUBLISHABLE_KEY=
+CLERK_WEBHOOK_SECRET=
+
+# Stripe Payments
+STRIPE_SECRET_KEY=
+STRIPE_CLIENT_ID=
+STRIPE_WEBHOOK_SECRET=
+STRIPE_CONNECT_WEBHOOK_SECRET=
+
+# GCP KMS - Used to encrypt/decrypt Shopify access tokens and other credentials
+# Create a key ring and key in GCP KMS, then create a service account with roles/cloudkms.cryptoKeyEncrypterDecrypter
+# GCP_SERVICE_ACCOUNT_JSON should be base64-encoded: cat service-account.json | base64
+GCP_KMS_PROJECT_ID=
+GCP_KMS_LOCATION=europe-west3
+GCP_KMS_KEY_RING=secrets-prod
+GCP_KMS_KEY=credentials
+GCP_SERVICE_ACCOUNT_JSON=eyJ0eXBlIjoic2VydmljZV9hY2NvdW50IiwicHJvamVjdF9pZCI6Ii4uLiJ9
+
+# Trigger.dev
+TRIGGER_SECRET_KEY=
+
+# App URLs
+SUPPLIER_APP_URL=http://localhost:3001
+RETAILER_APP_URL=http://localhost:3002
+API_URL=http://localhost:8787

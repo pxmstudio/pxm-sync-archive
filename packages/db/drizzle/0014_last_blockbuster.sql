@@ -1,0 +1,1 @@
+ALTER TABLE "feed_subscription_sync_settings" ADD COLUMN IF NOT EXISTS "default_product_status" text;

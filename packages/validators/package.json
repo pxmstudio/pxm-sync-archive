@@ -1,0 +1,32 @@
+{
+  "name": "@workspace/validators",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "zod": "^3.25.76"
+  },
+  "scripts": {
+    "check-types": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@workspace/typescript-config": "workspace:*",
+    "typescript": "^5.9.2"
+  },
+  "exports": {
+    ".": "./src/index.ts",
+    "./common": "./src/common.ts",
+    "./organizations": "./src/organizations.ts",
+    "./users": "./src/users.ts",
+    "./products": "./src/products.ts",
+    "./inventory": "./src/inventory.ts",
+    "./orders": "./src/orders.ts",
+    "./connections": "./src/connections.ts",
+    "./integrations": "./src/integrations.ts",
+    "./api-keys": "./src/api-keys.ts",
+    "./events": "./src/events.ts",
+    "./onboarding": "./src/onboarding.ts",
+    "./application-fields": "./src/application-fields.ts",
+    "./api": "./src/api/index.ts"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "@workspace/adapters",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "@clerk/backend": "^1.21.0",
+    "@google-cloud/kms": "^4.5.0",
+    "@shopify/shopify-api": "^11.6.0",
+    "svix": "^1.42.0"
+  },
+  "scripts": {
+    "check-types": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@workspace/typescript-config": "workspace:*",
+    "@workspace/validators": "workspace:*",
+    "typescript": "^5.9.2"
+  },
+  "exports": {
+    ".": "./src/index.ts",
+    "./auth": "./src/auth/index.ts",
+    "./ecommerce": "./src/ecommerce/index.ts",
+    "./ecommerce/shopify": "./src/ecommerce/shopify.ts",
+    "./ecommerce/types": "./src/ecommerce/types.ts",
+    "./kms": "./src/kms/index.ts"
+  }
+}

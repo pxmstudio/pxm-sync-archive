@@ -1,0 +1,9 @@
+# Load .env.development* files when running `wrangler dev`
+NEXTJS_ENV=development
+
+# Clerk
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_...
+CLERK_SECRET_KEY=sk_test_...
+
+# Stripe
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_test_...
